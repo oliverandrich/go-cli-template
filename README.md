@@ -28,6 +28,7 @@ just build
 - [gohatch](https://codeberg.org/oliverandrich/gohatch)
 - [just](https://github.com/casey/just) (command runner)
 - [golangci-lint](https://golangci-lint.run/) (linting)
+- [tparse](https://github.com/mfridman/tparse) (test output formatting)
 
 ## Template Variables
 
@@ -44,6 +45,8 @@ The template uses placeholders that gohatch replaces automatically:
 just setup            # Setup project (download deps, install pre-commit hooks)
 just build            # Build binary to build/<name>
 just test             # Run tests
+just cover            # Run tests with coverage
+just cover-report     # Open coverage report in browser
 just fmt              # Format code
 just lint             # Run linter
 just check            # Run fmt, lint, and test
