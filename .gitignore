@@ -16,3 +16,4 @@ coverage.out
 # Claude Code
 CLAUDE.md
 AGENTS.md
+.claude/
