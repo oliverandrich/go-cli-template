@@ -57,7 +57,6 @@ just check            # Run fmt, lint, and test
 just clean            # Remove build artifacts
 just install          # Install to $GOPATH/bin
 just release          # Create release with goreleaser
-just release-snapshot # Local test build without publishing
 ```
 
 ## Project Structure
