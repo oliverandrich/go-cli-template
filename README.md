@@ -1,5 +1,9 @@
 # Go CLI Template
 
+[![Go Version](https://img.shields.io/badge/go-1.24-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![License](https://img.shields.io/badge/license-EUPL--1.2-blue?style=for-the-badge)](LICENSE)
+[![Codeberg](https://img.shields.io/badge/codeberg-repo-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/oliverandrich/go-cli-template)
+
 A ready-to-use template for Go CLI applications.
 
 ## Stack
