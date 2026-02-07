@@ -13,29 +13,6 @@ builds:
     binary: __ProjectName__
     env:
       - CGO_ENABLED=0
-      # --- Uncomment below and set CGO_ENABLED=1 for zig cc cross-compilation ---
-      # - >-
-      #   {{- if eq .Os "darwin" }}
-      #     {{- if eq .Arch "amd64"}}CC=clang -arch x86_64{{- end }}
-      #     {{- if eq .Arch "arm64"}}CC=clang -arch arm64{{- end }}
-      #   {{- else if eq .Os "linux" }}
-      #     {{- if eq .Arch "amd64" }}CC=zig cc -target x86_64-linux-musl{{- end }}
-      #     {{- if eq .Arch "arm64"}}CC=zig cc -target aarch64-linux-musl{{- end }}
-      #   {{- else if eq .Os "windows" }}
-      #     {{- if eq .Arch "amd64" }}CC=zig cc -target x86_64-windows-gnu{{- end }}
-      #     {{- if eq .Arch "arm64"}}CC=zig cc -target aarch64-windows-gnu{{- end }}
-      #   {{- end }}
-      # - >-
-      #   {{- if eq .Os "darwin" }}
-      #     {{- if eq .Arch "amd64"}}CXX=clang++ -arch x86_64{{- end }}
-      #     {{- if eq .Arch "arm64"}}CXX=clang++ -arch arm64{{- end }}
-      #   {{- else if eq .Os "linux" }}
-      #     {{- if eq .Arch "amd64" }}CXX=zig c++ -target x86_64-linux-musl{{- end }}
-      #     {{- if eq .Arch "arm64"}}CXX=zig c++ -target aarch64-linux-musl{{- end }}
-      #   {{- else if eq .Os "windows" }}
-      #     {{- if eq .Arch "amd64" }}CXX=zig c++ -target x86_64-windows-gnu{{- end }}
-      #     {{- if eq .Arch "arm64"}}CXX=zig c++ -target aarch64-windows-gnu{{- end }}
-      #   {{- end }}
     goos:
       - linux
       - darwin
