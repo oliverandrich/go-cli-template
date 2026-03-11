@@ -17,3 +17,7 @@ coverage.out
 CLAUDE.md
 AGENTS.md
 .claude/
+
+# Beans
+.beans.yml
+.beans/
