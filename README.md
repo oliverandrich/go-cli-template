@@ -1,8 +1,10 @@
 # Go CLI Template
 
-[![Go Version](https://img.shields.io/badge/go-1.24-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
-[![License](https://img.shields.io/badge/license-EUPL--1.2-blue?style=for-the-badge)](LICENSE)
-[![GitHub](https://img.shields.io/badge/github-repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oliverandrich/go-cli-template)
+<a href="https://github.com/oliverandrich/go-cli-template/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/oliverandrich/go-cli-template/ci.yml?branch=main&label=CI&style=for-the-badge" alt="CI"></a>
+<a href="https://github.com/oliverandrich/go-cli-template/releases"><img src="https://img.shields.io/github/v/release/oliverandrich/go-cli-template?style=for-the-badge" alt="Release"></a>
+<a href="https://go.dev/"><img src="https://img.shields.io/github/go-mod/go-version/oliverandrich/go-cli-template?style=for-the-badge" alt="Go Version"></a>
+<a href="https://goreportcard.com/report/github.com/oliverandrich/go-cli-template"><img src="https://goreportcard.com/badge/github.com/oliverandrich/go-cli-template?style=for-the-badge" alt="Go Report Card"></a>
+<a href="/LICENSE"><img src="https://img.shields.io/github/license/oliverandrich/go-cli-template?style=for-the-badge" alt="License"></a>
 
 A ready-to-use template for Go CLI applications.
 
