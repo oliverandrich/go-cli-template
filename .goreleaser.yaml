@@ -5,9 +5,6 @@
 version: 2
 project_name: __ProjectName__
 
-env_files:
-  gitea_token: ~/.config/goreleaser/gitea_token
-
 builds:
   - main: ./cmd/__ProjectName__
     binary: __ProjectName__
@@ -65,7 +62,7 @@ changelog:
 
 homebrew_casks:
   - name: __ProjectName__
-    homepage: https://codeberg.org/__GitUser__/__ProjectName__
+    homepage: https://github.com/__GitUser__/__ProjectName__
     description: __ProjectDescription__
     binaries:
       - __ProjectName__
@@ -73,6 +70,7 @@ homebrew_casks:
     repository:
       owner: __GitUser__
       name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     commit_author:
       name: Oliver Andrich
       email: oliver@andrich.me
@@ -84,12 +82,7 @@ homebrew_casks:
           end
 
 release:
-  gitea:
-    owner: __GitUser__
-    name: __ProjectName__
+  owner: __GitUser__
+  name: __ProjectName__
   prerelease: auto
   extra_files: []
-
-gitea_urls:
-  api: https://codeberg.org/api/v1/
-  download: https://codeberg.org

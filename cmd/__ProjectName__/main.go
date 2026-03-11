@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"codeberg.org/oliverandrich/go-cli-template/internal/example"
+	"github.com/oliverandrich/go-cli-template/internal/example"
 	"github.com/urfave/cli/v3"
 )
 

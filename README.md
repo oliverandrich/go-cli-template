@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/go-1.24-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
 [![License](https://img.shields.io/badge/license-EUPL--1.2-blue?style=for-the-badge)](LICENSE)
-[![Codeberg](https://img.shields.io/badge/codeberg-repo-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/oliverandrich/go-cli-template)
+[![GitHub](https://img.shields.io/badge/github-repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oliverandrich/go-cli-template)
 
 A ready-to-use template for Go CLI applications.
 
@@ -18,7 +18,7 @@ A ready-to-use template for Go CLI applications.
 
 ```bash
 # Create new project from template
-gohatch codeberg.org/oliverandrich/go-cli-template codeberg.org/you/your-app
+gohatch github.com/oliverandrich/go-cli-template github.com/you/your-app
 
 # Build and run
 cd your-app
@@ -29,7 +29,7 @@ just build
 ## Requirements
 
 - Go 1.24+
-- [gohatch](https://codeberg.org/oliverandrich/gohatch)
+- [gohatch](https://github.com/oliverandrich/gohatch)
 - [just](https://github.com/casey/just) (command runner)
 - [golangci-lint](https://golangci-lint.run/) (linting)
 - [tparse](https://github.com/mfridman/tparse) (test output formatting)
